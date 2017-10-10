@@ -129,6 +129,6 @@ if __name__ == "__main__":
     create_dataset(sourcefile="soiaf_analogies.txt",      outfile="questions_soiaf_analogies.txt",   mode="analogies")
     create_dataset(sourcefile="soiaf_doesnt_match.txt", outfile="questions_soiaf_doesnt_match.txt", mode="doesnt_match")
 
-    create_dataset(sourcefile="hp_analogies.txt",      outfile="questions_hp_analogies.txt",   mode="analogies")
-    create_dataset(sourcefile="hp_doesnt_match.txt", outfile="questions_hp_doesnt_match.txt", mode="doesnt_match")
+    #create_dataset(sourcefile="hp_analogies.txt",      outfile="questions_hp_analogies.txt",   mode="analogies")
+    #create_dataset(sourcefile="hp_doesnt_match.txt", outfile="questions_hp_doesnt_match.txt", mode="doesnt_match")
 
