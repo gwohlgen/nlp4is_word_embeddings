@@ -14,6 +14,7 @@ MODEL_PATH="../models/"
 
 
 if BOOK_SERIES == "ASIOF":
+    ## if you have a binary model, set the second value to "bin", else to "vec"
     METHODS = [ 
         ('asoif_fastText', 'vec'), # default and: -epoch 25 -ws 12
     ]
