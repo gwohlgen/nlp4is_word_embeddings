@@ -1,6 +1,13 @@
 import sys
 from operator import itemgetter
 
+"""
+    check the frequencies of your analogies and doesnt_match terms in the corpus
+
+    eg: 
+        python check_frequencies.py questions_soiaf_doesnt_match.txt soiaf4books.txt
+"""
+
 INFILE = sys.argv[1]
 BOOK = sys.argv[2]
 
