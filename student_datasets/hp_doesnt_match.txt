@@ -1,0 +1,50 @@
+" File format: use 3 or 4 items of one type
+" then comes a "::" as separator
+" then comes a list of items that do not fit into the list
+"   NEW: we have exactly 20 items that do not fit into the list
+"   NEW: we split the items into 4 categories: a) terms that are very close misses (eg same family), b) close misses but not as close as a) (eg sample type: as Persons), 
+"        c) quite far away, but for example still named entites, d) very far, totally different word context, word category etc
+
+: quidditch-roles
+Seeker Chaser Beater :: Ron Harry Ginny Fred George Neville Draco James Bill Remus Gryffindor Slytherin Hufflepuff Ravenclaw owl cat Lily Molly Minerva Albus
+Chaser Beater Keeper :: Oliver Crabbe Gregory Potter Gryffindor Slytherin Hufflepuff Ravenclaw owl cat Expelliarmus Protego Impervius Tom Riddle Millicent Dolores Severus Narcissa Arthur
+Seeker Keeper Chaser :: Harry Ron Draco Ginny Regulus Remus Viktor Lily Hermione Piter Gryffindor Slytherin Hufflepuff Ravenclaw
+
+: names-of-houses
+Gryffindor Slytherin Hufflepuff Ravenclaw :: Hogwarts Lion Serpent Raven Badger Harry Ron Albus Minerva Molly Draco Vincent 
+
+: Magical-creatures
+Hedwig Buckbeak Witherwings Pigwidgeon :: Hogwarts Harry Ron Albus Minerva Molly Draco Vincent Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus
+Norris Crookshanks Scabbers Errol :: Harry Ron Hermione Fred Ginny Lavender Colin Neville Hannah Susan Cedric Justin Draco Vincent Gregory Millicent Phineas Tom Dolores Bellatrix
+Hermes Aragog Bane Bogrod :: Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus Ginny Lavender Colin Neville Harry Ron Hermione Fred
+Dobby Fang Fawkes Firenze :: Hannah Susan Cedric Justin Ernie Newt Zacharias Susan Terry Cho Penelope Michael Gregory Draco Graham Theodore Lucius Narcissa Severus Regulus
+Gornuk Grawp Griphook Hokey :: Harry Ron Hermione Fred Ginny Lavender Colin Neville Hannah Susan Cedric Justin Draco Vincent Gregory Millicent Phineas Tom Dolores Bellatrix
+Kreacher Magorian Nagini Norbert :: Hogwarts Harry Ron Albus Minerva Molly Draco Vincent Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus
+Peeves Pig Ronan Trevor :: Harry Ron Hermione Fred Ginny Lavender Colin Neville Hannah Susan Cedric Justin Draco Vincent Gregory Millicent Phineas Tom Dolores Bellatrix
+
+: Gryffindor-students
+Harry Ron Hermione Fred :: Hannah Susan Cedric Justin Ernie Newt Zacharias Susan Terry Cho Penelope Michael Gregory Draco Graham Theodore Lucius Narcissa Severus Regulus
+Ginny Lavender Colin Neville :: Hannah Susan Cedric Justin Ernie Newt Zacharias Susan Terry Cho Penelope Michael Gregory Draco Graham Theodore Lucius Narcissa Severus Regulus
+Seamus Angelina Lee Neville :: Hannah Susan Cedric Justin Ernie Newt Zacharias Susan Terry Cho Penelope Michael Gregory Draco Graham Theodore Lucius Narcissa Severus Regulus
+Remus Cormac Parvati Demelza :: Hannah Susan Cedric Justin Ernie Newt Zacharias Susan Terry Cho Penelope Michael Gregory Draco Graham Theodore Lucius Narcissa Severus Regulus
+Demelza Cormac Lee Alicia :: Hannah Susan Cedric Justin Ernie Newt Zacharias Susan Terry Cho Penelope Michael Gregory Draco Graham Theodore Lucius Narcissa Severus Regulus
+Fred George Angelina Seamus :: Hannah Susan Cedric Justin Ernie Newt Zacharias Susan Terry Cho Penelope Michael Gregory Draco Graham Theodore Lucius Narcissa Severus Regulus
+
+: Slytherin-students
+Draco Vincent Gregory Millicent :: Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus Ginny Lavender Colin Neville Harry Ron Hermione Fred
+Phineas Tom Dolores Bellatrix :: Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus Ginny Lavender Colin Neville Harry Ron Hermione Fred
+Lucius Narcissa Severus Regulus :: Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus Ginny Lavender Colin Neville Harry Ron Hermione Fred
+Blaise Millicent Vincent Marcus :: Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus Ginny Lavender Colin Neville Harry Ron Hermione Fred
+Gregory Draco Graham Theodore :: Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus Ginny Lavender Colin Neville Harry Ron Hermione Fred
+Theodore Pansy Bellatrix Tom :: Hannah Susan Cedric Justin Terry Cho Penelope Michael Fred George Angelina Seamus Ginny Lavender Colin Neville Harry Ron Hermione Fred
+
+: Hufflepuff-students
+Hannah Susan Cedric Justin :: Draco Vincent Gregory Millicent Terry Cho Penelope Michael Roger Marietta Anthony Padma Harry Ron Hermione Fred Demelza Cormac Lee Alicia
+Ernie Newt Zacharias Susan :: Draco Vincent Gregory Millicent Terry Cho Penelope Michael Roger Marietta Anthony Padma Harry Ron Hermione Fred Demelza Cormac Lee Alicia
+
+: Ravenclaw-students
+Terry Cho Penelope Michael :: Harry Ron Hermione Fred Ginny Lavender Colin Neville Hannah Susan Cedric Justin Draco Vincent Gregory Millicent Phineas Tom Dolores Bellatrix
+Roger Marietta Anthony Padma :: Harry Ron Hermione Fred Ginny Lavender Colin Neville Hannah Susan Cedric Justin Draco Vincent Gregory Millicent Phineas Tom Dolores Bellatrix
+
+
+:end
