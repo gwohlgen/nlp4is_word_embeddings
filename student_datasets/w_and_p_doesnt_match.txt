@@ -1,0 +1,25 @@
+" File format: use 3 or 4 items of one type
+" then comes a "::" as separator
+" then comes a list of items that do not fit into the list
+"   NEW: we have exactly 20 items that do not fit into the list
+"   NEW: we split the items into 4 categories: a) terms that are very close misses (eg same family), b) close misses but not as close as a) (eg sample type: as Persons), 
+"        c) quite far away, but for example still named entites, d) very far, totally different word context, word category etc
+
+: emperors
+Alexander Napoleon Francis :: Bilibin Kutuzov Bagration Dolgorukov Tushin Bolkonski Auersperg Schlappanitz Sokolnitz Pratzen Amelie Russians prince marshal officer fight horse battery river village
+
+: military-men
+Kutuzov Bagration Barclay :: Kuragin Ferapontov Napoleon Petya Nicholas Hippolyte Prokofy Karp Anna Austerlitz Tarutino Khamovniki Vozdvizhenka emperor commander general marshal war freedom master
+Suvorov Kutuzov Uvarov :: Kuragin Ferapontov Napoleon Petya Nicholas Hippolyte Prokofy Karp Anna Austerlitz Tarutino Countess war peace fight French Russian Moscow occupation freedom
+Dolgorukov Chernyshev Raevski Balashev :: Kuragin Ferapontov Napoleon Petya Nicholas Hippolyte Prokofy Karp Anna Austerlitz Tarutino Khamovniki Vozdvizhenka emperor commander general marshal war freedom master
+Castres Fabvier Ramballe Broussier :: Scherer Drubetskoy Kuragin Vasili Gerasim Pierre Zakhar Alpatych Vera Natasha Count Countess war peace fight French Russian Moscow occupation freedom
+
+: Bolkonski family
+Nicholas Andrew Mary :: Boris Anna Cyril Ilya Julie Hippolyte Napoleon Funke Pavlovna Rostov Rostova Ferapontov Rostopchin Princess Prince Moscow Russia Tarutino house history 
+Lise Nicholas Mary :: Boris Anna Cyril Ilya Julie Hippolyte Napoleon Funke Pavlovna Rostov Rostova Ferapontov Bilibin Princess Prince Moscow Russia Tarutino house commander
+
+: Rostov family
+Ilya Nataly Vera Nicholas :: Helene Julie Hippolyte Pierre Mary Cyril Anatole Anna Lavrushka Ignat Scherer Bezukhov Karagina Bolkonskaya Kuragin family madam Count Countess daughter  
+Natalie Natasha Petya :: Helene Julie Hippolyte Pierre Mary Cyril Anatole Anna Lavrushka Ignat Scherer Bezukhov Karagina Bolkonskaya Kuragin family madam Count Countess daughter
+
+:end
