@@ -74,3 +74,7 @@ We tried to make the system easily extendable to evaluate new models.
 * Adding new datasets and models: add the raw dataset into [datasets](datasets), generate the `questions`. Add a new section to `config.py` with the settings for 
 the new dataset. Also add new models, probably (see above).
 
+
+## Student datasets / repos:
+For *Witcher* dataset for Polish language books and datasets, see [here](https://github.com/Ba-Ski/nlp4is_word_embeddings)
+

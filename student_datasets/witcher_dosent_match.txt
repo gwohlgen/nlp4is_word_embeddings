@@ -1,0 +1,36 @@
+" File format: use 3 or 4 items of one type
+" then comes a "::" as separator
+" then comes a list of items that do not fit into the list
+"   NEW: we have exactly 20 items that do not fit into the list
+"   NEW: we split the items into 4 categories: a) terms that are very close misses (eg same family), b) close misses but not as close as a) (eg sample type: as Persons),
+"        c) quite far away, but for example still named entites, d) very far, totally different word context, word category etc
+
+: witchers
+geralt coen vesemir :: triss yennefer zoltan płotka kaedwen jaruga
+ciri lambert eskel :: calanthe vilgefortz pontart milva morhen novigard wyzima temeria brokilon nilfgaard
+
+: countries
+temeria redania rivia :: geralt strzyga regis vampir jaskier gwint meve
+poviss kovir kaedwen cintra :: vesemir novigrad sihill miecz rzeka sodden oxenfurt tissaia scoia'tael henselt calanthe ciri esterad
+nilfgaard aerdin toussaint :: wino królewstwo król demawend vizimir emhyr foltest shani mahakam srebrny las potwór
+
+: mosters
+smok vampir strzyga sukkub :: geralt ciri wiedźmin milva aedrin emhyr rience czarodziej elf jaruga driada dolina droga
+bazyliszek wilkołak żagnica korred :: yennefer triss sygga miecz loch verden kovis coen leo rzeka koń wałach
+
+
+" ************************************* BIGRAM MODEL DATA BELOW HERE ********************************
+
+" : seas ---  http://awoiaf.westeros.org/index.php/Category:Seas
+" Jade_Sea Narrow_sea Shivering_Sea Summer_Sea :: Rhoyne Trident Skahazadhan Viserion Rhaegal Craster Pyke Harrenhal Winterfell godswood Dorne
+"
+" : bays --- http://awoiaf.westeros.org/index.php/Category:Bays
+" Blackwater_Bay Whispering_Sound Shipbreaker_Bay Bite :: Jade_Sea Narrow_sea Shivering_Sea Summer_Sea Rhoyne Trident Skahazadhan Viserion Rhaegal Craster Pyke Harrenhal Winterfell godswood Dorne
+
+": gods
+" the_Father the_Mother the_Warrior the_Smith the_Maid the_Crone the_Stranger Drowned_God R’hllor Lord_of_Light Mother_Rhoyne
+": languages
+"Common_Tongue Dothraki High_Valyrian Ibbenese_language Old_Ghiscari Old_Tongue Summer_Tongue Skroth Trade_talk True_Tongue
+"True Tongue
+
+:end
